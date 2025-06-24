@@ -1,0 +1,17 @@
+h1 {
+    color: blueviolet;
+    font-size: 24pt;
+    text-align: center;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-size: 18pt;
+    text-align: start;
+}
+
+h2.novo_h2 {
+    color: rgb(245, 10, 22);
+    font-size: 12pt;
+    text-align: right;
+}
