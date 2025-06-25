@@ -1,11 +1,32 @@
 soma.addEventListener('click', function(event) {
-    let num1 = document.getElementById('num1').value;
-    let num2 = document.getElementById('num2').value;
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
     
-    if (!isNaN(num1) && !isNaN(num2)) {
-        let resultado = num1 + num2;
-        alert('A soma de ' + num1 + ' e ' + num2 + ' é ' + resultado);
+    soma = num1 + num2;
+        alert('A soma é: ' + soma);
+})
+subtracao.addEventListener('click', function(event) {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    
+    subtracao = num1 - num2;
+        alert('A subtração é: ' + subtracao);
+})
+multiplicacao.addEventListener('click', function(event) {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    
+    multiplicacao = num1 * num2;
+        alert('A multiplicação é: ' + multiplicacao);
+})
+divisao.addEventListener('click', function(event) {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    
+    if (num2 !== 0) {
+        divisao = num1 / num2;
+        alert('A divisão é: ' + divisao);
     } else {
-        alert('Por favor, insira números válidos.');
+        alert('Divisão por zero não é permitida.');
     }
-}
+});
