@@ -1,10 +1,10 @@
-soma.addEventListener('click', function(event) {
-    let num1 = Number(document.getElementById('num1').value);
-    let num2 = Number(document.getElementById('num2').value);
+// soma.addEventListener('click', function(event) {
+//     let num1 = Number(document.getElementById('num1').value);
+//     let num2 = Number(document.getElementById('num2').value);
     
-    soma = num1 + num2;
-        alert('A soma é: ' + soma);
-})
+//     soma = num1 + num2;
+//         alert('A soma é: ' + soma);
+// })
 subtracao.addEventListener('click', function(event) {
     let num1 = Number(document.getElementById('num1').value);
     let num2 = Number(document.getElementById('num2').value);
@@ -30,3 +30,10 @@ divisao.addEventListener('click', function(event) {
         alert('Divisão por zero não é permitida.');
     }
 });
+function somar_numeros() {
+    let num1 = Number(document.getElementById('num1').value);
+    let num2 = Number(document.getElementById('num2').value);
+    
+    let soma = num1 + num2;
+    alert('A soma é: ' + soma);
+}

@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 3, 3);
+    font-family: Arial, sans-serif;
+    background-image: url('cadusktverde.png');
+    background-repeat: repeat;
+    background-size: 80px 80px;
+  }
+  
+  /* Centraliza a imagem no topo */
+  .topo {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .topo img {
+    max-width: 200px;
+  }
+  
+  /* Centraliza o form no centro da tela (abaixo da imagem) */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  /* Estiliza o form */
+  form {
+    text-align: center;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin: 1px 0 5px 0;
+    color: rgb(100, 3, 3);
+    font-size: 18px;
+  }
+  
+  /* Inputs */
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    padding: 8px;
+    margin-bottom: 0.5px;
+    border: 2px solid rgb(100, 3, 3);
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Botão */
+  button {
+    padding: 10px 20px;
+    background-color: rgb(100, 3, 3);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(150, 20, 20);
+  }
+  h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(100, 3, 3);
+    font-size: 18pt;
+    text-align: center;
+  }
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    border: 2px solid rgb(100, 3, 3);
+    border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
