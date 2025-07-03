@@ -38,6 +38,7 @@ body {
     margin: 1px 0 5px 0;
     color: rgb(100, 3, 3);
     font-size: 18px;
+    align-items: center;
   }
   
   /* Inputs */
